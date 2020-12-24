@@ -1,14 +1,4 @@
-<root org="doublechain"
-    chinese_name="Simple PIM v1.0"
-    english_name="Product Information Management"
+<root org="医疗管理系统"
+    chinese_name="医疗管理系统 v1.0"
+    english_name="医疗管理系统"
 >
-    <platform
-        name="PIM"
-        founded="now()"
-        contact_number="992887654321"
-    />
-    <brand name="Candys|Sees"  platform="platform()"/>
-    <product name="popcorn|chocklate" image="snack.jpg" brand="brand()"  platform="platform()"/>
-    <sku name="sku" product="product()" brand="brand()" platform="platform()" create_time="createTime()"/>
-</root>
- 
