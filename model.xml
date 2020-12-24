@@ -1,4 +1,13 @@
-<root org="hosital"
+<root org="hospital"
     chinese_name="医疗管理系统 v1.0"
     english_name="医疗管理系统"
 >
+    <platform
+        name="sql"
+        founded="now()"
+        contact_number="120827023"
+    />
+    <brand name="Candys|Sees"  platform="platform()"/>
+    <product name="popcorn|chocklate" image="snack.jpg" brand="brand()"  platform="platform()"/>
+    <sku name="sku" product="product()" brand="brand()" platform="platform()" create_time="createTime()"/>
+</root>
